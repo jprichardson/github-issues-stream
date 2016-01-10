@@ -14,7 +14,7 @@ Usage
 ### githubIssues(repo, [options])
 
 Returns a [Readable Stream](https://nodejs.org/dist/latest-v5.x/docs/api/stream.html#stream_class_stream_readable)
-of [Github Issue objects](https://developer.github.com/v3/issues/#response-1).
+of Github[Issue objects](https://developer.github.com/v3/issues/#response-1).
 
 Parameters:
 - `repo`: The repo containing the issues you want to fetch.
