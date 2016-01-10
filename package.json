@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "standard"
+    "test": "standard && ava test/**/*.test.js --verbose"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/jprichardson/github-issues-stream/issues"
   },
-  "homepage": "https://github.com/jprichardson/github-issues-stream#readme"
+  "homepage": "https://github.com/jprichardson/github-issues-stream#readme",
+  "devDependencies": {
+    "ava": "^0.9.1",
+    "standard": "5.x"
+  },
+  "dependencies": {
+    "gh-got": "^2.4.0",
+    "object-assign": "^4.0.1"
+  }
 }
