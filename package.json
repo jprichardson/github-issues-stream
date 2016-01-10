@@ -1,0 +1,29 @@
+{
+  "name": "github-issues-stream",
+  "version": "0.0.0",
+  "description": "Readable stream for Github issues.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprichardson/github-issues-stream.git"
+  },
+  "keywords": [
+    "github",
+    "api",
+    "issues",
+    "stream",
+    "readable"
+  ],
+  "author": "JP Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprichardson/github-issues-stream/issues"
+  },
+  "homepage": "https://github.com/jprichardson/github-issues-stream#readme"
+}
