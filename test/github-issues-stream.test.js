@@ -32,3 +32,8 @@ test.cb('fetch invalid repo', (t) => {
     t.end()
   })
 })
+
+test('options set', (t) => {
+  var ghStream = ghIssues('does-not-matter', { test: 'blah' })
+  t.is(ghStream.options.test, 'blah')
+})

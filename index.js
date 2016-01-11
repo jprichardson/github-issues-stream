@@ -48,8 +48,8 @@ GithubIssuesStream.prototype._read = function () {
   })
 }
 
-function githubIssues (options) {
-  return new GithubIssuesStream(options)
+function githubIssues (repo, options) {
+  return new GithubIssuesStream(repo, options)
 }
 
 module.exports = githubIssues
